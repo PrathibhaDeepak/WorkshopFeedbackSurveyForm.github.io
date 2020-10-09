@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>One-Day Workshop Feedback Survey Form</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <div id="main">
+
+    <form id="survey-form">
+      <div class="main1">
+        <div class="title">
+          <h1 id="title">Workshop Feedback Survey Form</h1>
+
+          <p id="description">It will help us to shape future workshops. All your responses will be kept in the
+            most secure privacy.</p>
+        </div>
+
+
+        <div class="form-group">
+          <label for="name" id="name-label">Name </label>
+          <input id="name" type="text" placeholder="Enter your full name " minlength="5" maxlength="50" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email" id="email-label">Email </label>
+          <input id="email" type="email" placeholder="Enter your email " minlength="8" maxlength="50" required>
+        </div>
+        <div class="form-group">
+          <label for="age" id="number-label">Age </label>
+          <input id="number" type="number" placeholder="Enter your age" min=" 18" max="70" required>
+        </div>
+
+        <div class="form-group">
+          <label class="gender1" for="gender">Gender</label>
+          <br>
+          <div class="gender">
+            <input type="radio" name="gender" value="male">
+            <label id="male" for="male">Male</label>
+            <input type="radio" name="gender" value="female">
+            <label id="female" for="female">Female</label>
+            <input type="radio" name="gender" value="other">
+            <label id="other" for="other">Other</label>
+          </div>
+        </div>
+
+
+        <div class="form-group">
+          <h5>What is your current postion?</h5>
+
+          <select type="dropdown" id="dropdown" name="dropdown" value="dropdown" required>
+            <option value="dropdown">Choose</option>
+            <option value="dropdown">Senior Manager</option>
+            <option value="dropdown">Manager</option>
+            <option value="dropdown">Team Leader</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <h5>How would you rate the overall registration experience?</h5>
+          <div class="checkbox">
+            <input type="checkbox" id="qust-one" name="qust-one" value="qust-one">
+            <label class="one" for="checkbox">Excellent</label>
+            <input type="checkbox" id="qust-two" name="qust-two" value="qust-two">
+            <label class="one" for="checkbox">Good</label>
+            <input type="checkbox" id="qust-three" name="qust-three" value="qust-three">
+            <label class="one" for="checkbox">Poor</label>
+          </div>
+        </div>
+        <br>
+        <div class="form-group">
+          <div class="checkbox1">
+            <h5>How much did you learn from this workshop?</h5>
+            <input type="checkbox" id="one" name="one" value="one">
+            <label class="one" for="checkbox">I learned few things</label>
+            <input type="checkbox" id="two" name="two" value="two">
+            <label class="one" for="checkbox">I learned very little</label>
+            <input type="checkbox" id="three" name="three" value="three">
+            <label class="one" for="checkbox">I didn't learn anything</label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="text-area">
+            <h5>What did you like about the workshop?</h5>
+          </label><br>
+          <textarea name="text" id="text" cols="30" rows="5" placeholder="enter here..."></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="text-area">
+            <h5>What would you suggest to improve this workshop?</h5>
+          </label><br>
+          <textarea name="text" id="text1" cols="30" rows="5" placeholder="enter here..."></textarea>
+        </div>
+        <br>
+        <div class="submit">
+          <button class="btn btn-primary">Submit</button>
+        </div>
+
+
+
+
+      </div>
+    </form>
+
+  </div>
+
+</body>
+
+</html>

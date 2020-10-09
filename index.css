@@ -1,0 +1,156 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+#main {
+  font-family: 'EB Garamond', serif;
+  color: aliceblue;
+  background: url('https://static1.bigstockphoto.com/2/8/1/large1500/182194060.jpg') no-repeat center center/cover;
+  width: 100%;
+  opacity: 0.7;
+  
+}
+#survey-form {
+  background: #4da6ff;
+}
+#main h1 {
+  z-index: 10;
+  padding-top: 15px;
+
+}
+#main p {
+  font-size: 17px;
+}
+.main1 {
+  display: inline-block;
+  width: 60%;
+  height: 60%;
+  background: #0642f8;
+  ;
+}
+#survey-form {
+  text-align: center;
+  border: 2px solid #fff;
+}
+#survey-form {
+  align-items: center;
+  /* background: #C98A5F 2px; */
+  padding: 40px;
+  
+  opacity: 0.9;
+  padding: 20px 20px;
+
+}
+#name-label {
+  display: inline-block;
+  font-size: 20px;
+  
+}
+#email-label {
+  font-size: 20px;
+}
+#number-label {
+  font-size: 20px;
+  
+}
+#email-label:after {
+  content: "*";
+  color: rgb(235, 2, 2);
+}
+#name-label:after {
+  content: "*";
+  color: rgb(235, 2, 2);
+}
+
+
+#main .form-group #name {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1.5px solid #2e2eb8;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#main .form-group #email {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1.5px solid #2e2eb8;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#main .form-group #number {
+  width: 30%;
+  padding: 12px 29px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1.5px solid #2e2eb8;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.form-group .gender1 {
+  padding: 5px 5px;
+  font-size: 20px;
+}
+.form-group .gender #male {
+  font-size: 18px;
+  padding-right: 25px;
+  
+}
+.form-group .gender #female {
+  font-size: 18px;
+  padding-right: 25px;
+  
+}
+.form-group h5 {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.form-group #dropdown {
+  width: 150px;
+  height: 30px;
+  border: 1.5px solid #2e2eb8;
+}
+.form-group .checkbox .one {
+  display: inline-flex;
+  padding-right: 25px;
+  font-size: 18px;
+}
+.form-group .checkbox1 .one {
+  display: flex;
+  flex-direction: column-reverse;
+  font-size: 18px;
+}
+.form-group #text {
+  width: 250px;
+  height: 100px;
+  border: 1.5px solid #2e2eb8;
+}
+.form-group #text1 {
+  width: 250px;
+  height: 100px;
+  border: 1.5px solid #2e2eb8;
+}
+.submit {
+  padding-top: 10px;
+  padding-bottom: 40px;
+  
+  border: #2e2eb8;
+}
+.submit .btn-primary {
+  font-size: 20px;
+  color: #fff;
+}
+.submit .btn-primary:hover {
+  background: rgba(4, 3, 12, 0.2);
+}
+
+
+
+
+
